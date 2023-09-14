@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+/* body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+} */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  min-height: 100vh;
+  margin: 0;
+  color: black;
+}
+#descriptionContainer {
+  color: black;
+}
+
+.center-container {
+  text-align: center;
+}
+
+main {
+  padding: 1rem;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+table {
+  border-collapse: collapse; /* Merge borders for cells */
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #ddd; /* Add a 1px solid border to all table cells */
+  padding: 8px; /* Add padding for better spacing */
+  text-align: left; /* Align text to the left within cells */
+}
+
+th {
+  background-color: #f2f2f2; /* Optional: Add a background color to header cells */
+}
